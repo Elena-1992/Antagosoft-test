@@ -1,0 +1,317 @@
+@font-face {
+  font-family: "ArialRegular";
+  src: url("../fonts/ArialRegular/ArialRegular.eot");
+  src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ArialRegular/ArialRegular.woff") format("woff"),
+  url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ArialBold";
+  src: url("../fonts/ArialBold/ArialBold.eot");
+  src: url("../fonts/ArialBold/ArialBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ArialBold/ArialBold.woff") format("woff"),
+  url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PTSansBold";
+  src: url("../fonts/PTSansBold/PTSansBold.eot");
+  src: url("../fonts/PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/PTSansBold/PTSansBold.woff") format("woff"),
+  url("../fonts/PTSansBold/PTSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+html, body, div, span,h1,
+h2, h3, h4, h5, h6, p,a,
+ol, ul, li, form, label,
+footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+footer, header, menu, nav, section {
+  display: block;
+}
+html{
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  color: #333;
+  background: #fff;
+  font: 14px/1.5 "ArialRegular", sans-serif;
+  min-width: 320px;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+ul li{
+  list-style: none;
+}
+p{
+  color: #333;
+  font: 14px/1.5 "ArialRegular", sans-serif;
+}
+.wrapper{
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.content__holder{
+  padding: 15px 20px 3px;
+  position: relative;
+}
+.profile__foto{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 20px;
+}
+.profile__name{
+  font: 16px "ArialBold";
+}
+.profile__info{
+  padding: 8px 0 0 130px;
+}
+.profile__profession{
+  font-size: 12px;
+  color: #808080;
+  margin-top: 3px;
+}
+.profile__desc{
+  background: #fffbc8;
+  border: 1px solid #cecabf;
+  border-radius: 5px;
+  padding: 5px 5px 5px 30px;
+  margin: 5px 0 0 99px;
+}
+.services{
+  margin-left: 130px;
+}
+.services__table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 5px;
+}
+.services__table td{
+  font-size: 13px;
+}
+.first-child{
+  border-bottom: 1px solid #ccc;
+}
+.first-child td{
+  padding: 5px 31px;
+}
+.last-child{
+  border-top: 1px solid #ccc;
+}
+.mask{
+  height: 16px;
+}
+.color-bg{
+  position: relative;
+  padding: 3px 6px;
+}
+.color-bg:before{
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 0;
+  border-radius: 0 3px 3px 0;
+  height: 100%;
+  z-index: -1;
+}
+.color-bg__max,
+.color-bg__middle{
+  border-bottom: 2px solid transparent;
+}
+.color-bg__max{
+  border-left: 1px solid #83b26d;
+}
+.color-bg__middle,
+.color-bg__min{
+  border-left: 1px solid #7eb4ca;
+}
+.color-bg__max:before{
+  width: 220px;
+  background-color: #b1e19b;
+}
+.color-bg__middle:before{
+  background-color: #ace2f8;
+  width: 53px;
+  top: 1px;
+}
+.color-bg__min:before{
+  background-color: #ace2f8;
+  width: 35px;
+  top: 1px;
+}
+.last-child .text-bold{
+  font-size: 16px;
+}
+.last-child td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.text-bold{
+  font-family: "ArialBold";
+}
+.text-right{
+  text-align: right;
+  padding-right: 42px;
+}
+.reviews__last{
+  font-size: 16px;
+}
+.reviews__last,
+.reviews__all,
+.reviews__likes,
+.reviews__likes li,
+.reviews__likes img,
+.reviews__likes p,
+.post__date,
+.user__name{
+  display: inline-block;
+}
+.reviews__likes img{
+  vertical-align: middle;
+}
+.reviews__likes p{
+  font-size: 12px;
+}
+.reviews__likes li{
+  margin-left: 15px;
+}
+.reviews__likes li:first-child{
+  margin-left: 0;
+}
+.reviews__all{
+  color:#005da1;
+  text-decoration: none;
+  border-bottom: 1px solid #005da1;
+  line-height: 1.2;
+}
+.reviews__all:hover{
+  border-color: transparent;
+}
+.reviews__likes{
+  float: right;
+}
+.reviews__last{
+  margin-right: 5px;
+}
+.reviews__header{
+  margin: 5px 0 8px;
+}
+.reviews__form{
+  background: #f2f2f2;
+  padding: 30px 20px 35px;
+}
+.reviews__item{
+  margin-bottom: 16px;
+}
+.reviews__item__desc{
+  background: #f2fbff;
+  border: 1px solid #cfcfcf;
+  padding: 13px 18px;
+  position: relative;
+  margin-top:9px;
+}
+.reviews__item__desc:before{
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 19px;
+  border: 4px solid transparent;
+  border-bottom: 4px solid #f2fbff;
+  border-left: 4px solid #f2fbff;
+  z-index: 1;
+}
+.reviews__item__desc:after{
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: 18px;
+  border: 5px solid transparent;
+  border-bottom: 5px solid #cfcfcf;
+  border-left: 5px solid #cfcfcf;
+  z-index: 0;
+}
+.reviews__form__text{
+  width: 100%;
+  border:1px solid #a9a9a9;
+  resize: none;
+  height: 65px;
+  background: #fff;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.reviews__form__text:focus{
+  outline: none;
+}
+.button__yellow{
+  background: #fdd639;
+  color: #333;
+  font: 16px/1.5 "PTSansBold";
+  border-radius: 25px;
+  padding: 10px;
+  width: 260px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.button__yellow:hover{
+  background: #ecc00e;
+}
+.user__name{
+  margin-right: 5px;
+}
+.post__date{
+  font-size: 11px;
+  color: #808080;
+}
+@media (max-width: 489px) {
+  .services{
+    margin-left: 0;
+  }
+}
+@media (max-width: 380px) {
+  .reviews__likes {
+    float: none;
+    display: block;
+  }
+}

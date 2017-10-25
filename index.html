@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    </head>
+
+    <body>
+        <div class="wrapper">
+
+            <div class="content__holder">
+
+                <div class="profile">
+                    <div class="profile__foto" style="background:url(img/profile-foto.jpg) no-repeat center; background-size:cover;">
+                    </div>
+                    <div class="profile__info">
+                        <p class="profile__name">Вероника Ростова</p>
+                        <p class="profile__profession">Менеджер по продажам</p>
+                    </div>
+                    <div class="profile__desc">
+                        <p>Подберу для вас самые лучшие предложения.</p>
+                        <p>Мои услуги абсолютно бесплатны</p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <table class="services__table">
+                        <tr class="first-child">
+                            <td colspan="2" class="text-right">Услуг</td>
+                        </tr>
+                        <tr class="mask">
+                        </tr>
+                        <tr>
+                            <td class="color-bg color-bg__max">Ручное бронирование</td>
+                            <td class="text-bold text-right">11</td>
+                        </tr>
+                        <tr>
+                            <td class="color-bg color-bg__middle">Пакетные туры</td>
+                            <td class="text-bold text-right">3</td>
+                        </tr>
+                        <tr>
+                            <td class="color-bg color-bg__min">Отели</td>
+                            <td class="text-bold text-right">1</td>
+                        </tr>
+                        <tr class="mask">
+                        </tr>
+                        <tr class="last-child">
+                            <td class="text-bold">Всего</td>
+                            <td class="text-bold text-right">15</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="reviews">
+                    <div class="reviews__header">
+                        <p class="text-bold reviews__last">Последние отзывы</p>
+                        <a href="#" class="reviews__all">Все отзывы</a>
+                        <ul class="reviews__likes">
+                            <li>
+                                <img src="img/like-icon.png" alt="">
+                                <p>131</p>
+                            </li>
+                            <li>
+                                <img src="img/reviews-icon.png" alt="">
+                                <p>14</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="reviews__list" id="container">
+                        <li class="reviews__item">
+                            <div class="reviews__item__title">
+                                <p class="user__name text-bold">Самуил</p>
+                                <p class="post__date">13 октября 2011</p>
+                            </div>
+                            <div class="reviews__item__desc">
+                                <p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+                            </div>
+                        </li>
+                        <li class="reviews__item">
+                            <div class="reviews__item__title">
+                                <p class="user__name text-bold">Самуил</p>
+                                <p class="post__date">13 октября 2011</p>
+                            </div>
+                            <div class="reviews__item__desc">
+                                <p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+                            </div>
+                        </li>
+                        <li class="reviews__item">
+                            <div class="reviews__item__title">
+                                <p class="user__name text-bold">Самуил</p>
+                                <p class="post__date">13 октября 2011</p>
+                            </div>
+                            <div class="reviews__item__desc">
+                                <p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="reviews__form">
+                <textarea class="reviews__form__text" id="input"></textarea>
+                <span class="button button__yellow" id="btn">Написать консультанту</span>
+            </div>
+
+        </div>
+
+    <script src="js/script.js"></script>
+    </body>
+</html>
